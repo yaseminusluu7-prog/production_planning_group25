@@ -757,6 +757,34 @@
         "RemoteSha.Version": "1.0.5"
       }
     },
+    "lpSolve": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "lpSolve",
+        "Version": "5.6.23",
+        "Title": "Interface to 'Lp_solve' v. 5.5 to Solve Linear/Integer Programs",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = \"cre\"),\n    person(\"Michel\", \"Berkelaar\", role = \"aut\")\n  )",
+        "Description": "Lp_solve is freely available (under LGPL 2) software for\n        solving linear, integer and mixed integer programs. In this\n        implementation we supply a \"wrapper\" function in C and some R\n        functions that solve general linear/integer problems,\n        assignment problems, and transportation problems. This version\n        calls lp_solve version 5.5.",
+        "License": "LGPL-2",
+        "URL": "https://github.com/gaborcsardi/lpSolve",
+        "BugReports": "https://github.com/gaborcsardi/lpSolve/issues",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-12-13 22:30:07 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [cre],\n  Michel Berkelaar [aut]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-12-14 00:30:02 UTC",
+        "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:54 UTC; windows",
+        "Archs": "x64",
+        "RemoteType": "standard",
+        "RemotePkgRef": "lpSolve",
+        "RemoteRef": "lpSolve",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha.Version": "5.6.23"
+      }
+    },
     "magrittr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1476,7 +1504,22 @@
   },
   "files": {
     "app.R": {
-      "checksum": "675122c38629fd378e0db59c091a0f68"
+      "checksum": "ea2f5bd7b4f36479d822ac9140d99f33"
+    },
+    "R/ap_disaggregation.R": {
+      "checksum": "b7617914fda57a54ecc98e10202f8045"
+    },
+    "R/ap_helpers.R": {
+      "checksum": "b34261c12bcda27018c4ed541b232e01"
+    },
+    "R/ap_heuristic.R": {
+      "checksum": "1d17b7cd2d6de36e125bb40e1ff29d59"
+    },
+    "R/ap_linear_programming.R": {
+      "checksum": "9edb0adeac84ed78519a1011c413de5a"
+    },
+    "R/ap_transportation.R": {
+      "checksum": "960737a5e45e6b225a93bde869da412c"
     },
     "R/box_jenkins_forecasting.R": {
       "checksum": "c49ac982f5ff02e8d3c343cc20a8e9b6"

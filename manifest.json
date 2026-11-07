@@ -1476,13 +1476,22 @@
   },
   "files": {
     "app.R": {
-      "checksum": "57005773618261a1a88f70ea86fbebfc"
+      "checksum": "675122c38629fd378e0db59c091a0f68"
+    },
+    "R/box_jenkins_forecasting.R": {
+      "checksum": "c49ac982f5ff02e8d3c343cc20a8e9b6"
+    },
+    "R/forecasting_helpers.R": {
+      "checksum": "f67a217f467f48c44ce3e24742479757"
     },
     "R/learning_curve.R": {
       "checksum": "9b20a6e9c563a628f70a59d1d89a1f05"
     },
-    "R/moving_average.R": {
-      "checksum": "ae7253a5fe9569e0d37a1507cead16e1"
+    "R/stationary_forecasting.R": {
+      "checksum": "4a08fecd83ca01b9b0ec449fea1b3d36"
+    },
+    "R/trend_seasonal_forecasting.R": {
+      "checksum": "fcfab34503b98196d6448392aa544926"
     },
     "README.md": {
       "checksum": "b080e1275a9fc5c9523dcc678507e8ef"
